@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "retool": {
+    "app": {
+      "uuid": "c56a573c-c7d1-11f1-a575-1bd261521e3b",
+      "name": "Near Earth Object Visualizer - Production",
+      "resourceReferencesByFile": {
+        "/backend/nasa/getNearEarthObjects.ts": [
+          {
+            "name": "ea9de788-6f1a-4e1c-8165-5ffd8ef1c9ff",
+            "displayName": "Nasa - Near Earth Objects - Production",
+            "type": "restapi"
+          }
+        ]
+      },
+      "appIdentifier": "near-earth-object-visualizer-production"
+    }
+  }
+}
