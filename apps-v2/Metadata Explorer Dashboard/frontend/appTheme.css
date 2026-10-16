@@ -1,0 +1,31 @@
+:root:root {
+  --primary: 12 90% 55%;
+  --primary-foreground: 0 0% 100%;
+  --ring: 12 90% 55%;
+  --radius: 0.75rem;
+  --chart-1: 12 90% 55%;
+  --chart-2: 174 72% 40%;
+  --chart-3: 211 79% 56%;
+  --chart-4: 42 94% 55%;
+  --chart-5: 275 69% 61%;
+}
+
+:root.dark {
+  --background: 222 28% 7%;
+  --foreground: 210 24% 96%;
+  --card: 221 24% 10%;
+  --card-foreground: 210 24% 96%;
+  --popover: 221 24% 10%;
+  --popover-foreground: 210 24% 96%;
+  --primary: 12 94% 61%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 220 20% 15%;
+  --secondary-foreground: 210 24% 96%;
+  --muted: 220 20% 15%;
+  --muted-foreground: 215 15% 66%;
+  --accent: 220 20% 16%;
+  --accent-foreground: 210 24% 96%;
+  --border: 220 18% 21%;
+  --input: 220 18% 21%;
+  --ring: 12 94% 61%;
+}
