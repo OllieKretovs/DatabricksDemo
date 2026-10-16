@@ -1,0 +1,84 @@
+{
+  "private": true,
+  "retool": {
+    "app": {
+      "uuid": "cbcc3302-c6f0-11f1-9643-079ca2566edf",
+      "name": "Metadata Explorer Dashboard",
+      "resourceReferencesByFile": {
+        "/backend/metadata/askGenie.ts": [
+          {
+            "name": "fb7ede8f-0dd1-46fd-94f2-5c62b13ae578",
+            "displayName": "Genie Agent - Account 360",
+            "type": "mcp"
+          },
+          {
+            "name": "381a42d9-1f77-44ca-ab43-34607a10625c",
+            "displayName": "Genie Agent - AE Deal Desk & Territory Manager",
+            "type": "mcp"
+          }
+        ],
+        "/backend/metadata/getUniverse.ts": [
+          {
+            "name": "fb7ede8f-0dd1-46fd-94f2-5c62b13ae578",
+            "displayName": "Genie Agent - Account 360",
+            "type": "mcp"
+          },
+          {
+            "name": "381a42d9-1f77-44ca-ab43-34607a10625c",
+            "displayName": "Genie Agent - AE Deal Desk & Territory Manager",
+            "type": "mcp"
+          },
+          {
+            "name": "801d7771-8f64-472d-a4d9-68c6c60134a2",
+            "displayName": "Lakebase",
+            "type": "databricksLakebase"
+          },
+          {
+            "name": "bbc3c2fb-1613-4005-98a6-bc8dce4a7e40",
+            "displayName": "Lakehouse",
+            "type": "databricks"
+          }
+        ],
+        "/backend/metadata/populateLakebase.ts": [
+          {
+            "name": "801d7771-8f64-472d-a4d9-68c6c60134a2",
+            "displayName": "Lakebase",
+            "type": "databricksLakebase"
+          }
+        ],
+        "/backend/metadata/populateLakehouse.ts": [
+          {
+            "name": "bbc3c2fb-1613-4005-98a6-bc8dce4a7e40",
+            "displayName": "Lakehouse",
+            "type": "databricks"
+          }
+        ]
+      },
+      "appIdentifier": "metadata-explorer-dashboard"
+    }
+  },
+  "retoolMetadata": {
+    "mcpToolMaps": {
+      "fb7ede8f-0dd1-46fd-94f2-5c62b13ae578": {
+        "querySpace01f1c64cfcd11121825870122686c346": {
+          "toolName": "query_space_01f1c64cfcd11121825870122686c346",
+          "readOnlyHint": true
+        },
+        "pollResponse01f1c64cfcd11121825870122686c346": {
+          "toolName": "poll_response_01f1c64cfcd11121825870122686c346",
+          "readOnlyHint": true
+        }
+      },
+      "381a42d9-1f77-44ca-ab43-34607a10625c": {
+        "querySpace01f1c64bbbd219fa9dccf39e0f653159": {
+          "toolName": "query_space_01f1c64bbbd219fa9dccf39e0f653159",
+          "readOnlyHint": true
+        },
+        "pollResponse01f1c64bbbd219fa9dccf39e0f653159": {
+          "toolName": "poll_response_01f1c64bbbd219fa9dccf39e0f653159",
+          "readOnlyHint": true
+        }
+      }
+    }
+  }
+}
